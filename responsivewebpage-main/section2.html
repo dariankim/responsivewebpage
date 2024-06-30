@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Idea #2</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Main</a>
+        <a href="section1.html">Idea #1</a>
+
+        <!-- Active link pointing to the section2.html page -->
+        <a class="active" href="section2.html">Idea #2</a>
+
+        <a href="section3.html">Idea #3</a>
+        <a href="references.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- Section 2 content -->
+        <strong>GIS for analysis on summer wild fires in Washington:</strong>
+        <div class="text-box">  
+            Summer wild fires are prevalent in Washington state. Having lived here for my whole life, I understand the impacts of wild fires and the impact it has on the community as smog spreads throughout the surrounding areas. Understanding these trends can help predict and prevent spread of forest wild fires which we can use to access and deploy meaningful actions to minimalize damage.
+    
+        <style>
+            .text-box {
+              /* Add your desired box styles here */
+              border: 1px solid #ddd;
+              padding: 10px;
+              background-color: #f5f5f5;
+            }
+          </style>
+        <br>
+        <br>
+        <a href="https://commons.wikimedia.org/wiki/File:Fire-Forest.jpg" target="_blank" class="image-link">
+            <img src="img/Fire-Forest.jpg" alt="World Image" style="width: 60%; height: auto; margin: 0 auto;"> 
+        </a>
+        <style>
+            .image-link:hover img {
+              /* Add your desired hover styles here */
+              opacity: 0.7;  /* Reduce opacity for a highlighting effect */
+              border: 2px solid #746b6b; /* Add a border on hover */
+            }
+          </style>
+        <br>
+        <strong>Possible steps for implementation:</strong>
+        <br>
+        <button class="accordion">Step 1: Gathering data</button>
+        <div class="panel">
+        <p>Gather data on regions of previous wild fires, spread, and possible reasons as to why those fires started.</p>
+        </div>
+
+        <button class="accordion">Step 2: Analyze data</button>
+        <div class="panel">
+        <p>Analyze data based on the spread and cause of wild fires. Understanding how different methods can prevent and minimize possible damage</p>
+        </div>
+
+        <button class="accordion">Step 3: Implement</button>
+        <div class="panel">
+        <p>From data gathered and analyzed, implement possible routes/options in tackling these wild fires.</p>
+        </div>
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
