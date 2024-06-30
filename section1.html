@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Idea #1</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Main</a>
+
+        <!-- Active link pointing to the section1.html page -->
+        <a class="active" href="section1.html">Idea #1</a>
+
+        <a href="section2.html">Idea #2</a>
+        <a href="section3.html">Idea #3</a>
+        <a href="references.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- Section 1 content -->
+        <strong>Using remote sensing for mineral identification:</strong>
+        <br>
+        <div class="text-box">  
+            In this idea for the final project I want to classify minerals through satellite imagery. This can be done using spectroscopy to measure the light of a region and identify the chemical composition of that region. Through a sorting mechanism whether this is machine learning to learn different regions and their potential classification or manual we can understand the minerals on the surface. Data maybe hard to associate and connect since a lot of preprocessing tools will be needed such as converting the region to a image that can learn spectroscopy measurements and also training the model using CNNs as a way to identify the regions surface minerals which is a trial and error process in terms of constructing the architecture of the model. Another constraint is that satellite imagery is big in terms of scale, so using CNNs can be a challenge since we need our model to be both precise and accurate on a big scale.
+
+        <style>
+            .text-box {
+              /* Add your desired box styles here */
+              border: 1px solid #ddd;
+              padding: 10px;
+              background-color: #f5f5f5;
+            }
+          </style>
+        <br>
+        <br>
+        <a href="https://www.deviantart.com/fargetanik/art/Earth-Truecolor-Texture-Map-12k-819032851">
+            <img src="img/geoprocessing.png" alt="World Image" style="width: 80%; height: auto; margin: 0 auto;"> 
+        </a>
+    </div>
+    
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
